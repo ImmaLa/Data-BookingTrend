@@ -2,7 +2,7 @@
 Project Overview
 
 This project develops predictive machine learning models using booking data to identify key factors associated with customer cancellations. The objective is to support data-driven strategies that improve operational efficiency and enhance customer retention.
-The dataset was provided by Hotel Haven, a luxury hotel chain with multiple locations. Hotel Haven has faced challenges in accurately predicting booking cancellations, which has negatively impacted resource planning and operational management. By analyzing historical booking patterns, this project aims to improve cancellation forecasting and inform proactive retention strategies.
+Hotel Haven is a luxury hotel chain with multiple locations. Hotel Haven has faced challenges in accurately predicting booking cancellations, which has negatively impacted resource planning and operational management. By analyzing historical booking patterns, this project aims to improve cancellation forecasting and inform proactive retention strategies.
 Methodology
 
 The analysis followed an end-to-end data science workflow:
