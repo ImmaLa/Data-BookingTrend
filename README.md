@@ -3,34 +3,36 @@ Project Overview
 
 This project develops predictive machine learning models using booking data to identify key factors associated with customer cancellations. The objective is to support data-driven strategies that improve operational efficiency and enhance customer retention.
 Hotel Haven is a luxury hotel chain with multiple locations. Hotel Haven has faced challenges in accurately predicting booking cancellations, which has negatively impacted resource planning and operational management. By analyzing historical booking patterns, this project aims to improve cancellation forecasting and inform proactive retention strategies.
-Methodology
+Booking Cancellation Prediction – Hotel Haven
 
-The analysis followed an end-to-end data science workflow:
+Built machine learning models to predict hotel booking cancellations using historical booking data, supporting proactive retention strategies and improved operational planning.
 
-Data Cleaning and Exploration:
-Data quality checks, preprocessing, and exploratory data analysis (EDA) were conducted to understand booking patterns, customer behavior, and key drivers of cancellations.
+Problem
+Hotel Haven faced revenue loss and planning inefficiencies due to inaccurate cancellation forecasts.
 
-Feature Engineering:
-Relevant features were engineered to capture booking characteristics and customer attributes that influence cancellation behavior.
+Approach
 
-Data Preprocessing:
-Numerical features were scaled, and class imbalance was addressed using SMOTE (Synthetic Minority Oversampling Technique) to improve model learning and predictive performance.
+Performed data cleaning, EDA, and feature engineering
 
-Model Development:
-A baseline Logistic Regression model was trained using an 80/20 train–test split. The baseline model achieved an accuracy and F1-score of 77%.
-Advanced Modeling:
-More complex models were evaluated, including Random Forest and multi-model approaches. The Random Forest model outperformed other models, achieving an accuracy and F1-score of 89%.
+Addressed class imbalance using SMOTE
 
-Model Optimization:
-Hyperparameter tuning was applied to the Random Forest model, resulting in an Area Under the ROC Curve (AUC) of 96%, indicating strong predictive performance and robust discrimination between canceled and non-canceled bookings.
-Results and Impact
+Trained and evaluated Logistic Regression and Random Forest models
 
-The optimized Random Forest model demonstrates a high capacity to predict customer cancellations with strong accuracy and reliability. With effective deployment, this model can help Hotel Haven:
+Results
 
-Anticipate cancellations more accurately
+Logistic Regression: 77% accuracy / F1-score
 
-Improve resource allocation and operational planning
+Random Forest: 89% accuracy / F1-score
 
-Implement targeted retention strategies
+Tuned Random Forest achieved AUC = 96%
 
-Reduce revenue loss associated with last-minute cancellations
+Impact
+
+Improved cancellation prediction accuracy
+
+Enabled better resource allocation
+
+Supported targeted customer retention strategies
+
+Tools
+Python, Pandas, Scikit-learn, SMOTE, Matplotlib, Seaborn
